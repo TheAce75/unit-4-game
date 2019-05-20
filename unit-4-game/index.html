@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <title>Superhero Collector</title>
+  <meta charset="UTF-8">
+  <meta name="author" content="Arceny Castillo" />
+  <meta name="description" content="jQuery Assignment" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+
+<body>
+	<div class="jumbotron">
+		<div class="container">
+			<h1>Superhero Collector</h1>
+			<h5>You will be given a random number at the start of the game. There are 4 DC heroes to choose from. When you click on a hero, it will add a random number to your score. In order to save the day, you have to match the random number given to you at the beginning</h5>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-2">
+					<button class="btn btn-default btn-lg">Save the Day</button>
+				</div>
+				<div class="col-md-3">
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<h4>Number to Match</h4>
+						</div>
+						<div class="panel-body">
+							<p><span id="targetNumber"></span></p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-2">
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<h4>Wins</h4>
+						</div>
+						<div class="panel-body">
+							<p><span id="winCount"></span></p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-2">
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<h4>Losses</h4>
+						</div>
+						<div class="panel-body">
+							<p><span id="lossCount"></span></p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-2">
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<h4>Total score</h4>
+						</div>
+						<div class="panel-body">
+							<p><span id="yourScore"></span></p>
+						</div>
+					</div>
+				</div>
+					<span class="col-md-2"><img src="assets/images/Batman.jpg" id="Batman" alt="An image of Batman is shown." class="img-thumbnail"></span>
+					<span class="col-md-2"><img src="assets/images/Superman.jpg" id="Superman" alt="An image of Superman is shown." class="img-thumbnail"></span>
+					<span class="col-md-2"><img src="assets/images/WonderWoman.png" id="WonderWoman" alt="An image of Wonder Woman is shown." class="img-thumbnail"></span>
+					<span class="col-md-2"><img src="assets/images/Flash.jpg" id="Flash" alt="An image of The Flash is shown." class="img-thumbnail"></span>
+			</div>
+			<div class="row">
+				<div id="alert"></div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript" src="assets/javascript/game.js"></script>
+	<script src="youscript.js"></script>
+</body>
+</html>

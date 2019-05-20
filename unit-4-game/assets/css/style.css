@@ -1,0 +1,20 @@
+.jumbotron h1 {
+	font-size: 48px;
+	color: rgb(248, 3, 3);
+}
+.jumbotron h5 {
+	font-size: 20px;
+	color: rgb(248, 3, 3);
+}
+.jumbotron p {
+	font-size: 28px;
+	color: green;
+} 
+.jumbotron{
+	background-image: url("../images/DC.jpg");
+}
+.img-thumbnail{
+	width: 150px;
+	height: 150px;
+}
+font-weight: bold
